@@ -91,7 +91,7 @@
                     "label": "Netz-Assistant",
                     "buttonLabel": "Öffnen",
                     "icon": {
-                        "href": "dashboard_sections_net_coverage_icon"
+                        "href": "dashboard_sections_net_assistant_icon"
                     },
                     "action": {
                         "href": "https://www.vodafone.de/netz-assistent/chatbot"
@@ -121,7 +121,7 @@
                     "label": "Personal Agent",
                     "buttonLabel": "Anrufen",
                     "icon": {
-                        "href": "dashboard_sections_community_icon"
+                        "href": "dashboard_sections_personal_agent_icon"
                     },
                     "action": {
                         "href": "tel:01721212"
