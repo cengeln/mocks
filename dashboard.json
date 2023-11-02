@@ -82,7 +82,9 @@
             "title": "Tobi",
             "style": "framedWithImage",
             "image": {
-                "href": "https://www.vodafone.de/media/img/help-services/hilfe-tobi-brix-ms-480x298-dtm.png"
+                "href": {
+                    "uri": "https://www.vodafone.de/media/img/help-services/hilfe-tobi-brix-ms-480x298-dtm.png"
+                }
             },
             "items": [
                 {
