@@ -1,0 +1,169 @@
+{
+    "_embedded": {
+        "largeTiles": {
+            "_links": {
+                "self": {
+                    "href": "https://api.vodafone.de/mva/v1/user/urn:vf-de:dsl:acn:001944206561/dashboard/largeTiles"
+                }
+            }
+        },
+        "mediumTiles": {
+            "_links": {
+                "self": {
+                    "href": "https://api.vodafone.de/mva/v1/user/urn:vf-de:dsl:acn:001944206561/dashboard/mediumTiles"
+                }
+            }
+        },
+        "smallTiles": {
+            "_links": {
+                "self": {
+                    "href": "https://api.vodafone.de/mva/v1/user/urn:vf-de:dsl:acn:001944206561/dashboard/smallTiles"
+                }
+            }
+        }
+    },
+    "sections": [
+        {
+            "type": "VoV",
+            "title": "Mehr für Dich"
+        },
+        {
+            "type": "Navigation",
+            "title": "Mein Vertrag",
+            "style": "basic",
+            "items": [
+                {
+                    "label": "Mein Tarif",
+                    "icon": {
+                        "href": "dashboard_sections_my_plan_dsl_icon"
+                    },
+                    "action": {
+                        "href": "https://www.vodafone.de/meinvodafone/services/dsl-produkte/meine-produkte"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Navigation",
+            "title": "Service",
+            "style": "basic",
+            "items": [
+                {
+                    "label": "Shop-Termin vereinbaren",
+                    "icon": {
+                        "href": "dashboard_sections_shop_appointment_icon"
+                    },
+                    "action": {
+                        "href": "https://shops.vodafone.de/search?appointment=1&&forApp=true&navi=hide"
+                    }
+                },
+                {
+                    "label": "Bestellstatus",
+                    "icon": {
+                        "href": "dashboard_sections_order_status_icon"
+                    },
+                    "action": {
+                        "href": "https://www.vodafone.de/meinvodafone/services/dsl-produkte/status?accordion=processingStatus"
+                    }
+                },
+                {
+                    "label": "Alles zum Umzug",
+                    "icon": {
+                        "href": "dashboard_sections_relocation_icon"
+                    },
+                    "action": {
+                        "href": "https://www.vodafone.de/hilfe/alles-zum-umzug.html?navi=hide&c_id=app_cad_discovery&hideheader=1"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Navigation",
+            "title": "Tobi",
+            "style": "framedWithImage",
+            "image": {
+                "href": "https://www.vodafone.de/media/img/help-services/hilfe-tobi-brix-ms-480x298-dtm.png"
+            },
+            "items": [
+                {
+                    "label": "Netz-Assistant",
+                    "buttonLabel": "Öffnen",
+                    "icon": {
+                        "href": "dashboard_sections_net_assistant_icon"
+                    },
+                    "action": {
+                        "href": "https://www.vodafone.de/netz-assistent/chatbot"
+                    }
+                },
+                {
+                    "label": "Netzabdeckung",
+                    "buttonLabel": "Prüfen",
+                    "icon": {
+                        "href": "dashboard_sections_net_coverage_icon"
+                    },
+                    "action": {
+                        "href": "https://netmap.vodafone.de/cokart-client/index.html?lang=de&app=cokart_4x&c_id=app_cad_discovery&hideheader=1"
+                    }
+                },
+                {
+                    "label": "SpeedTest",
+                    "buttonLabel": "Start",
+                    "icon": {
+                        "href": "dashboard_sections_speed_test_icon"
+                    },
+                    "action": {
+                        "href": "https://www.vodafone.de/meinvodafone/app/speedtest"
+                    }
+                },
+                {
+                    "label": "Personal Agent",
+                    "buttonLabel": "Anrufen",
+                    "icon": {
+                        "href": "dashboard_sections_net_assistant_icon"
+                    },
+                    "action": {
+                        "href": "tel:01721212"
+                    }
+                },
+                {
+                    "label": "Hilfe & Suche",
+                    "buttonLabel": "Öffnen",
+                    "icon": {
+                        "href": "dashboard_sections_search_icon"
+                    },
+                    "action": {
+                        "href": "https://www.vodafone.de/privat/hilfe.html"
+                    }
+                },
+                {
+                    "label": "Community",
+                    "buttonLabel": "Öffnen",
+                    "icon": {
+                        "href": "dashboard_sections_community_icon"
+                    },
+                    "action": {
+                        "href": "https://forum.vodafone.de/?navi=hide&hideheader=1&c_id=app_cad_discovery"
+                    }
+                }
+                
+            ]
+        }
+    ],
+    "optionalNavigation": [
+        {
+            "name": "Offers",
+            "label": "Angebote",
+            "icon": {
+                "href": "dashboard_bottom_navigation_offers_icon"
+            },
+            "action": {
+                "href": "https://www.vodafone.de/meinvodafone/app/offer"
+            }
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "https://api.vodafone.de/mva/v1/user/urn:vf-de:dsl:acn:001944206561/dashboard/skeleton"
+        }
+    }
+}
